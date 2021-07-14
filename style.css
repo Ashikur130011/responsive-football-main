@@ -242,6 +242,54 @@ footer{
 }
 /* footer-part-end */
 /* Media Queries */
+/* tablet */
+@media only screen and (min-width:689px) and (max-width:1024px){
+    .container{
+        max-width: 100%;
+    }
+    .blog-section{
+        width: 100%;
+        margin-top: 47px;
+    }
+    .banner-left h1 {
+        font-size: 64px;
+        width: 381px;
+        color: #ffffff;
+    }
+    .banner-right img {
+        width: 378.01px;
+        height: 350px;
+    }
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .match{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .match img {
+        width: 516px;
+        height: 427px;
+    }
+    .subscribe{
+        width: 705px;
+    }
+    .subscribe h1 {
+        font-size: 20px;
+        color: white;
+    }
+    .subscribe p {
+        font-size: 10px;
+        color: #ffffff;
+    }
+    .watch-videos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 /* Mobile devices */
 @media only screen and (max-width:688px) {
     header{
