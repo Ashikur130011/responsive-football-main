@@ -16,6 +16,9 @@ header{
     align-items: center;
 
 }
+.nav-bar{
+    margin-top: 42px;
+}
 .nav-bar ul li{
     display: inline-block;
     padding-right: 36px;
@@ -32,6 +35,7 @@ header{
     width: 123px;
     height: 44px;
     padding-left: 24px;
+    margin-top: 42px;
 }
 .login-btn{
     display: flex;
@@ -93,9 +97,7 @@ main{
 }
 .container{
     max-width: 1150px;
-    /* margin-left: 410px; */
     margin: 0 auto;
-    padding-top: 85px;
 }
 .players{
     display: grid;
@@ -113,6 +115,7 @@ main{
 .blog-section{
     width: 1050px;
     margin: auto;
+    margin-top: 70px;
 }
 .player-detail{
     background-color: white;
