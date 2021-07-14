@@ -239,14 +239,17 @@ footer{
 /* Media Queries */
 /* Mobile devices */
 @media only screen and (max-width:688px) {
-    /* header */
-    body{
-        width: 100%;
-
+    header{
+        height: 695px;
     }
-    
+    .container{
+        max-width: 100%;
+    }
+    .blog-section{
+        width: 100%;
+        margin-top: 47px;
+    }
     .menu{
-        width: 340px;
         display: none;
     }
     .nav-bar{
@@ -262,6 +265,7 @@ footer{
         flex-direction: column;
         align-items:center;
         padding-left: 15px;
+        padding-top:0 ;
         width: 360px;
     }
     .banner-left{
@@ -275,7 +279,7 @@ footer{
         
     }
     .banner-right {
-        margin-top: 120px;
+        margin-top: 182px;
     }
     .banner-right img{
         width: 329px;
@@ -285,6 +289,7 @@ footer{
     .container{
         width:100%;
         margin-left: 0;
+        padding-top:0 ;
     }
     .containers{
         width:100%;
